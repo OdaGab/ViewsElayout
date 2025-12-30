@@ -3,6 +3,9 @@
     <style name="Base.Theme.ViewsElayout" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Fix for layout editor contrast warning -->
+        <item name="colorOnSurface">@android:color/black</item>
     </style>
 
     <style name="Theme.ViewsElayout" parent="Base.Theme.ViewsElayout" />
