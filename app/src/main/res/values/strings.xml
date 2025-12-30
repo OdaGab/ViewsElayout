@@ -3,4 +3,9 @@
     <string name="usu_rio">Usuário</string>
     <string name="logar">Logar</string>
     <string name="next">Next</string>
+    <string name="nome">Nome</string>
+    <string name="observa_oes">Observaçoes</string>
+    <string name="email">email</string>
+    <string name="enviar">Enviar</string>
+    <string name="next2">Next</string>
 </resources>
