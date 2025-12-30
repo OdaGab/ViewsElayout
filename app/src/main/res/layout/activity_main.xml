@@ -5,43 +5,39 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
     tools:context=".MainActivity">
 
-        <TextView
-            android:id="@+id/text01"
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/usu_rio">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/usu_rio"
-            android:textSize="24sp"
-            android:textColor="@color/colorPrimary"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="16dp"
-            />
-<EditText
-    android:id="@+id/tLogin"
-    android:inputType="textEmailAddress"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="16dp"
-    android:layout_marginEnd="16dp"
-    android:autofillHints="texto login"
-    tools:ignore="LabelFor" />
+            android:inputType="textEmailAddress"
+            android:autofillHints="emailAddress" />
 
-<Button
-    android:id="@+id/btnlogar"
-    android:text="@string/logar"
-    android:layout_gravity="center"
-    android:layout_width="200dp"
-    android:layout_marginTop="20dp"
-    android:layout_height="wrap_content" />
-        <Button
-            android:id="@+id/btnNext"
-            android:text="@string/next"
-            android:layout_gravity="center"
-            android:layout_width="200dp"
-            android:layout_marginTop="20dp"
-            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnlogar"
+        android:text="@string/logar"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:text="@string/next"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
