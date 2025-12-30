@@ -75,9 +75,11 @@
             android:text="@string/enviar"
             />
         <Button
+            android:id="@+id/btnNext2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/next2"
+            android:backgroundTint="@android:color/holo_red_dark"
             android:layout_marginStart="16dp"
             />
 

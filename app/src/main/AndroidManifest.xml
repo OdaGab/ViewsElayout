@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewsElayout">
         <activity
+            android:name=".ActivityPeso2"
+            android:exported="false" />
+        <activity
             android:name=".activityPeso"
             android:exported="false" />
         <activity
