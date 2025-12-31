@@ -8,4 +8,7 @@
     <string name="email">email</string>
     <string name="enviar">Enviar</string>
     <string name="next2">Next</string>
+    <string name="text_peso_1">Text (Peso 1)</string>
+    <string name="text_peso_2">Text (Peso 2)</string>
+    <string name="text_peso_3">Text (Peso 3)</string>
 </resources>
