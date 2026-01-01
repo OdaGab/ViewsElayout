@@ -12,4 +12,5 @@
     <string name="text_peso_2">Text (Peso 2)</string>
     <string name="text_peso_3">Text (Peso 3)</string>
     <string name="senha">Senha</string>
+    <string name="processando">Processando...</string>
 </resources>

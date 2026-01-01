@@ -18,10 +18,11 @@ class ActivityPeso2 : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val btnNext3 = findViewById<Button>(R.id.btnNext3)
 
-        btnNext3.setOnClickListener {
-            val intent = Intent(this, exemplo_table_layout::class.java)
+        val btnNextPgFrame = findViewById<Button>(R.id.btnNextpgframe)
+
+        btnNextPgFrame.setOnClickListener {
+            val intent = Intent(this, FrameLayoutPregressbar::class.java)
             startActivity(intent)
         }
     }
