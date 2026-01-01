@@ -18,12 +18,11 @@ class exemplo_table_layout : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-        val btnNextPgTable = findViewById<Button>(R.id.next4)
 
-        btnNextPgTable.setOnClickListener {
+        val btnNext4 = findViewById<Button>(R.id.next4)
+        btnNext4.setOnClickListener {
             val intent = Intent(this, RelativeLayout::class.java)
             startActivity(intent)
         }
-
-      }
+    }
 }
