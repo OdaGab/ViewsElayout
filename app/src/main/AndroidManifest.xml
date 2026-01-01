@@ -12,13 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewsElayout">
         <activity
-            android:name=".RelativeLayout"
-            android:exported="false"
-            android:theme="@style/Theme.ViewsElayout" />
-        <activity
-            android:name=".FrameLayoutPregressbar"
-            android:exported="false" />
-        <activity
             android:name=".exemplo_table_layout"
             android:exported="false" />
         <activity
