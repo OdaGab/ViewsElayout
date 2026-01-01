@@ -29,7 +29,7 @@
         android:autofillHints="Digite o nome"
         />
     <Button
-        android:id="@+id/btnNext3"
+        android:id="@+id/btnNextpgframe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/next2"

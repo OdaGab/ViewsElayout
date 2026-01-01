@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="#8B8B83"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+
+    <TextView
+        android:id="@+id/labelUsuario"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:text="@string/usu_rio"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/inputUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/labelUsuario"
+        android:layout_alignBaseline="@id/labelUsuario"
+        android:autofillHints="Usuario"
+        android:background="@drawable/editbox_background"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/labelSenha"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputUsuario"
+        android:layout_marginTop="32dp"
+        android:text="@string/senha"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/labelSenha"
+        android:layout_alignBaseline="@id/labelSenha"
+        android:autofillHints="Usuario"
+        android:background="@drawable/editbox_background"
+        android:inputType="textPassword"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btnLogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputSenha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/logar"
+
+        />
+    <Button
+        android:id="@+id/btnNext5"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputSenha"
+        android:layout_marginTop="32dp"
+        android:text="@string/next"
+        />
+</RelativeLayout>
